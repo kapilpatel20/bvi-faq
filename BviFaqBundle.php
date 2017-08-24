@@ -1,6 +1,6 @@
 <?php
 
-namespace Bvi\FaqBundle;
+namespace BviFaqBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
