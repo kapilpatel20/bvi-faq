@@ -1,0 +1,21 @@
+{
+    "name": "kapilpatel20/bvi-faq",
+    "description": "Faq Management with crud options",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/kapilpatel20/bvi-faq",
+    "authors": [{
+            "name": "Jainil Rajwaniya",
+            "email": "jainil.rajwaniya@gmail.com"
+        }],
+    "keywords": [
+        "Faq page"
+    ],
+    "license": "proprietary",
+    "require": {
+        "knplabs/knp-paginator-bundle": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {"BviFaqBundle\\": ""}
+    },
+    "minimum-stability": "dev"
+}

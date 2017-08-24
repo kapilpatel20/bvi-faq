@@ -1,0 +1,15 @@
+bvi_faq_list:
+    path:     /list
+    defaults: { _controller: BviFaqBundle:Faq:index }
+
+bvi_faq_new:
+    path:     /new
+    defaults: { _controller: BviFaqBundle:Faq:new }
+    
+bvi_faq_edit:
+    path:     /edit/{id}
+    defaults: { _controller: BviFaqBundle:Faq:edit }
+    
+bvi_faq_update_status:
+    path:     /update-status
+    defaults: { _controller: BviFaqBundle:Faq:updateStatus }    

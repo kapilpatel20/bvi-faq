@@ -1,0 +1,4 @@
+services:
+#    bvi_faq.example:
+#        class: Bvi\FaqBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

@@ -1,0 +1,15 @@
+Bvi\FaqBundle\Entity\Faq:
+    constraints:
+        - Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity:
+            fields: [question]
+            message: "Question already exists."
+    properties:
+        question:
+           - NotBlank:
+                message: "Please enter question."
+        answer:
+           - NotBlank:
+                message: "Please enter answer."
+        status:
+            - NotBlank:
+                message: "Please select status."
