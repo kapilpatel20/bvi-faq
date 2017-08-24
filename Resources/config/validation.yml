@@ -1,4 +1,4 @@
-Bvi\FaqBundle\Entity\Faq:
+BviFaqBundle\Entity\Faq:
     constraints:
         - Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity:
             fields: [question]
